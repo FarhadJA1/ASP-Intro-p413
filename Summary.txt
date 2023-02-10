@@ -1,0 +1,10 @@
+1. Models => Movie(Id,Name,Genre,CreationDate,DirectorId)
+             Director(Id,Name,Surname,Age)
+
+2. Data => Database => Movies,Directors
+
+3. DirectorController => GetAll,Create,Update(id),Delete(id)  
+   MovieController => GetAll,Create,Update(id),Delete(id),FilterByDirectorId   
+
+4. Instance Constructorda həll olunsun. (Optional - Id - özü generate olsun)
+   
